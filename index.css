@@ -1,0 +1,116 @@
+*{
+   margin: 0;
+}
+.border-1-card{
+   border: 1px solid darkgray;
+   /* box-shadow: 3px linear-gradient(#2F3061, #595cff);; */
+   box-shadow: 1px 2px  3px #595cff ;
+   margin: auto;
+   width: 18%;
+   margin-top: 10%;
+   padding: 3%;
+   border-radius: 5%;
+   color: #fff;
+   /* background: linear-gradient(#5e60ce, #6930c3, #7400b8); */
+   background: linear-gradient(#6d23b6,#6411ad, #571089 );
+   margin-top: -8%;
+   position: absolute; 
+   left: 38%;
+}
+.border-2-form{
+   border: 1px solid whitesmoke;
+   margin: auto;
+   width: fit-content;
+   margin-top: 20%;
+   padding: 0 5%;
+   padding-top: 10%;
+   padding-bottom: 3%;
+   color: dimgray;
+   font-size: small;
+   border-radius: 10px;
+   box-shadow: 2px 2px 2px darkgray, 2px 2px 2px darkgray, 2px 2px 2px darkgray;
+}
+.icons{
+   column-gap: 5px;
+}
+.atm-pin{
+   letter-spacing: 2px;
+   word-spacing: 6px;
+}
+   
+#visa{
+   text-align: right;
+   float: right;
+}
+span{
+   text-align: right;
+   float: right;
+}
+.card-credentials{
+   font-size: small;
+   color: dimgray;
+}
+.nan{
+   text-transform: capitalize;
+}
+.ccv{
+   padding-right: 29%;
+}
+
+.ccv-name{
+   /* border: 1px solid; */
+   width: 33%;
+}
+input{
+   width: 97%;
+}
+select{
+   width: 30%;
+}
+button{
+   width: 98%;
+   padding: 1%;
+   color: #fff;
+   background-color: rgba(0, 0, 255, 0.836);
+   border-color: rgba(0, 0, 255, 0.836);
+   border-radius: 3px;
+}
+@media screen  and (max-width:798px ){
+   .border-1-card{
+      width: 30%;
+      left: 25%;
+   }
+}
+
+@media screen and (max-width:1200px){
+   .border-1-card{
+      width: 40%;
+      left: 30%;
+      margin-top: -15%;
+   }
+   .border-2-form{
+      padding-top: 15%;
+   }
+}
+@media screen and (max-width:400px){
+   .border-1-card{
+      width: 70%;
+      left: 15% ;
+      margin-top: -35%;
+   }
+   .border-2-form{
+      margin-top: 45%;
+      margin-left: 5%;
+      margin-right: 5%;
+   }
+}
+/* @media screen and (max-width:1920px){
+   .border-1-card{
+      width: 20%;
+   }
+} */
+@media screen and (max-width:200px){
+   .border-1-card{
+      width: 30%;
+   }
+} 
